@@ -1,5 +1,6 @@
 package com.example.esevafood.composables
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -38,6 +39,7 @@ fun HomeScreen() {
         Column(
             modifier = Modifier
                 .fillMaxSize()
+                .background(color = Color.White)
                 .padding(it)
         ) {
             Spacer(modifier = Modifier.height(24.dp))

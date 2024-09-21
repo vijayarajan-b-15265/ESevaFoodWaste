@@ -1,5 +1,6 @@
 package com.example.esevafood.composables
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -38,6 +39,7 @@ fun RegisterScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .background(color = Color.White)
             .padding(top = 70.dp, start = 20.dp, end = 20.dp, bottom = 70.dp),
         verticalArrangement = Arrangement.SpaceBetween
     ) {
